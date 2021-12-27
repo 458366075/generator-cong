@@ -1,0 +1,38 @@
+{
+  "name": "<%= projectName %>",
+  "version": "0.1.0",
+  "private": true,
+  "description": "<%= description %>",
+  "keywords": "<%- keywords.split(',') %>",
+  "homepage": "<%= gitUrlReplace %>#readme",
+  "bugs": {
+    "url": "<%= gitUrlReplace %>/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+<%= gitUrl %>"
+  },
+  "license": "MIT",
+  "author": "<%= author %>",
+  "scripts": {
+    "start": "cong-pages dev",
+    "build": "cong-pages build"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "bootstrap": "4.4.1",
+    "jquery": "3.4.1",
+    "popper.js": "1.16.1"
+  },
+  "devDependencies": {
+    "cong-pages": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
