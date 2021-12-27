@@ -25,12 +25,9 @@ module.exports = class extends Generator {
     })
   }
   writing() {
-    const { projectName, gitUrl, keywords } = this.answers
+    const { projectName } = this.answers
     const template = this.templatePath('pages-boilerplate')
     const output = this.destinationPath(projectName)
-    this.fs.copyTpl(template, output, {
-      ...this.answers,
-      gitUrlReplace: gitUrl.replace('.git', ''),
-    })
+    this.fs.copyTpl(template, output, this.answers)
   }
 }

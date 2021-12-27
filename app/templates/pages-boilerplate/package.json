@@ -3,15 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "<%= description %>",
-  "keywords": "<%- keywords.split(',') %>",
-  "homepage": "<%= gitUrlReplace %>#readme",
-  "bugs": {
-    "url": "<%= gitUrlReplace %>/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+<%= gitUrl %>"
-  },
+  "keywords": [],
   "license": "MIT",
   "author": "<%= author %>",
   "scripts": {

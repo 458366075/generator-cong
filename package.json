@@ -1,6 +1,6 @@
 {
   "name": "generator-cong",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "generator-cong",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,15 @@
   "keywords": [
     "cong",
     "generator-cong",
-    "generator"
+    "yeoman-generator"
   ],
   "author": "cong",
   "license": "ISC",
+  "homepage": "https://github.com/458366075/generator-cong",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/458366075/generator-cong.git"
+  },
   "dependencies": {
     "yeoman-generator": "^5.4.2"
   }
